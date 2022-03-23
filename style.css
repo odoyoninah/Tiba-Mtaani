@@ -1,0 +1,41 @@
+.mama{
+    background-image: url(./images/health7.jpg);
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.062),rgba(0, 0, 0, 0.623)) ,url(./images/intro2.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+
+.tafuta{
+    justify-content: center;
+    text-align: center;
+    border: 2px;
+}
+.mofimu{
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border: 2px ; 
+}
+.desc{
+    justify-content: center;
+    text-align: center;
+}
+.chatbox{
+    /* text-align: center; */
+ 
+   display: flex; 
+   justify-content: center; 
+   position: absolute;
+   /* margin-top: 40vh;
+   margin-left: 80vw; */
+   position: fixed;
+   z-index: 99;
+  /* opacity: 0; */
+}
